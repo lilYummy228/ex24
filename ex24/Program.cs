@@ -10,7 +10,13 @@ namespace ex24
     {
         static void Main(string[] args)
         {
+            string text = "The quick brown,fox jumps over the lazy dog.";
+            string[] words = text.Split(' ');
 
+            foreach (var word in words)
+            {
+                Console.WriteLine($"{word} ");
+            }
         }
     }
 }
