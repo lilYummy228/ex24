@@ -10,7 +10,7 @@ namespace ex24
     {
         static void Main(string[] args)
         {
-            string text = "The quick brown,fox jumps over the lazy dog.";
+            string text = "Успех не окончателен, поражение не фатально. Лишь смелость продолжать имеет значение.";
             string[] words = text.Split(' ');
 
             foreach (var word in words)
