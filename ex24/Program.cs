@@ -13,7 +13,7 @@ namespace ex24
             string text = "Успех не окончателен, поражение не фатально. Лишь смелость продолжать имеет значение.";
             string[] words = text.Split(' ');
 
-            foreach (var word in words)
+            foreach (string word in words)
             {
                 Console.WriteLine($"{word} ");
             }
