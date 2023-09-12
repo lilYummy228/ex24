@@ -10,12 +10,13 @@ namespace ex24
     {
         static void Main(string[] args)
         {
+            char space = ' ';
             string text = "Успех не окончателен, поражение не фатально. Лишь смелость продолжать имеет значение.";
-            string[] words = text.Split(' ');
+            string[] words = text.Split(space);
 
             foreach (string word in words)
             {
-                Console.WriteLine($"{word} ");
+                Console.WriteLine($"{word}");
             }
         }
     }
